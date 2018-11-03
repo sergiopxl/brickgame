@@ -1,1 +1,1 @@
-# bickgame
+# brickgame
