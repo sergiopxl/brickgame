@@ -2,12 +2,37 @@
     padding: 0;
     margin: 0;
 }
-canvas{
-    background-color: #ff88ee;
-    display: block;
-    margin: 0 auto;
-    position: absolute;
+body{
+    background-image: url("../img/background.png");
+}
+.marco{
+    position:absolute;
+    background-color: $color3;
+    padding: 55px;
+    border-radius: 10px;
     top:50%;
     left: 50%;
-    transform: translate(-50% ,-50%);
+    transform: translate(-50%, -50%);
+    canvas{
+        background-color: #eee;
+        display: block;
+        margin: 0 auto;
+    }
+}
+.btn{
+    position: absolute;
+    top: calc(50% + 237px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 205px;
+    height: 25px;
+    padding: 5px;
+    background-color: $color1;
+    color: white;
+    text-transform: uppercase;
+    font-family: arial;
+    font-size: 22px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
 }
